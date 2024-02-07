@@ -1,0 +1,25 @@
+.background-img{
+    background-image: url("../../assets/Untitled-design.png");
+    background-size: cover;
+    background-position: center;
+}
+.background-color{
+    background-color: rgba(0, 21, 59, 0.548);
+    z-index: 1;
+}
+.text-shadow{
+    text-shadow: 0 0 10px #00e1ff, 0 0 5px #0066ff;
+}
+
+  
+
+@media only screen and (max-width: 760px) {
+    .header-align{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fs-3{
+        font-size: 1.5rem !important;
+    }
+}
