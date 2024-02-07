@@ -11,9 +11,6 @@ import { VscBrowser, VscBriefcase, VscAccount } from "react-icons/vsc";
 import { useState } from "react";
 
 function Navbar() {
-  // function myFunction(x) {
-  //   x.classList.toggle("change");
-  // }
 
   const [toggled, setToggled] = useState(false);
 
@@ -69,13 +66,15 @@ function Navbar() {
           </a>
         </li>
       </ul>
-        <div className={`humburger ${toggled ? 'toggled' : ''}`} onClick={() => setToggled(!toggled)}>
-          <a href="#" className="nav">
-            <div className="one"></div>
-            <div className="two"></div>
-            <div className="three"></div>
-          </a>
-        </div>
+      <div
+        className={`humburger ${toggled ? "toggled" : ""}`}
+        onClick={() => setToggled(!toggled)}>
+        <a href="#" className="nav">
+          <div className="one"></div>
+          <div className="two"></div>
+          <div className="three"></div>
+        </a>
+      </div>
       <ul className="flex flex-row">
         <li className="my-auto px-5 text-white">
           <a href="#">
