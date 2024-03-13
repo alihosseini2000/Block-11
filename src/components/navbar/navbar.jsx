@@ -67,7 +67,7 @@ function Navbar() {
         </li>
       </ul>
       <div
-        className={`humburger ${toggled ? "toggled" : ""}`}
+        className={`humburger ps-5 ${toggled ? "toggled" : ""}`}
         onClick={() => setToggled(!toggled)}>
         <a href="#" className="nav">
           <div className="one"></div>
